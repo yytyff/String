@@ -1,4 +1,4 @@
-###5、写一个函数，判断一个字符串是回文字符串，如 abcdcba是回文字符串, abcdcbb不是
+### 一、写一个函数，判断一个字符串是回文字符串，如 abcdcba是回文字符串, abcdcbb不是
 ```
 var a = 'abcdcba';
 var b = 'abcdcbb';
@@ -8,7 +8,7 @@ function isReverse(str){
 console.log (isReverse(a));
 console.log (isReverse(b));
 ```
-###6、写一个函数，统计字符串里出现出现频率最多的字符
+### 二、写一个函数，统计字符串里出现出现频率最多的字符
 ```
 var str ='hello world , jiengu haha hoho hoho lol'
 var dict = {}
@@ -29,7 +29,7 @@ for(key in dict){
 }
 console.log(maxValue,count)
 ```
-###7、写一个camelize函数，把my-short-string形式的字符串转化成myShortString形式的字符串，如
+### 三、写一个camelize函数，把my-short-string形式的字符串转化成myShortString形式的字符串，如
 ```
 function camelize(str){
 	var arr = str.split('-');
@@ -47,7 +47,7 @@ console.log(camelize("list-style-image"));
 camelize("background-color") == 'backgroundColor'
 camelize("list-style-image") == 'listStyleImage'
 ```
-###8、写一个 ucFirst函数，返回第一个字母为大写的字符 （***）
+### 四、写一个 ucFirst函数，返回第一个字母为大写的字符 （***）
 ```
 var str= 'hello';
 function ucFirst(str){
@@ -61,7 +61,7 @@ ucFirst(str);
 
 ucFirst("hunger") == "Hunger"
 ```
-###9、写一个函数truncate(str, maxlength), 如果str的长度大于maxlength，会把str截断到maxlength长，并加上...，如
+### 五、写一个函数truncate(str, maxlength), 如果str的长度大于maxlength，会把str截断到maxlength长，并加上...，如
 ```
 function truncate(str,maxLength){
 	var strLength = str.length;
